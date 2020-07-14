@@ -353,6 +353,7 @@ def build_spreadsheet():
         i = i+1
         j = j+1
     build_analysis(workbook)
+    workbook.close()
 
 def getlongestrow(rows):
     longest_row = []      
