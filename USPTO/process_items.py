@@ -491,8 +491,8 @@ def main():
         'log_every': args.progress_every,
     }
     try:
-       # init_db()
-       # process_items(r, **kwargs)
+        init_db()
+        process_items(r, **kwargs)
         logger.info("Building spreadsheet")
         build_spreadsheet()
         retcode = 0  # ok
